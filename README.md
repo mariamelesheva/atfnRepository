@@ -9,4 +9,4 @@ https://stepik.org/course/575
 - скачать chrome driver и добавить в path
 - установить необходимые библиотеки из requirements.txt
 
-В репозитории отсутствуют config_connections.json и файлы в целях безопасности платформы
+В репозитории отсутствуют config_connections.json и папка files в целях безопасности платформы
