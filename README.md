@@ -8,3 +8,5 @@ https://stepik.org/course/575
 - установка selenium library
 - скачать chrome driver и добавить в path
 - установить необходимые библиотеки из requirements.txt
+
+В репозитории отсутствуют config_connections.json и файлы в целях безопасности платформы
