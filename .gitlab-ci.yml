@@ -1,0 +1,17 @@
+image: joyzoursky/python-chromedriver:latest
+stages:
+  - testing
+e2e:chrome:
+  before_script:
+    - pip install -r requirements.txt
+  stage: testing
+  services:
+    - selenium/standalone-chrome
+  script:
+    - python test_run.py
+  artifacts:
+    when: always
+    name: "Результат работы"
+    paths:
+        - "screens/*.png"
+    expire_in: 1 week

@@ -1,0 +1,4 @@
+requests>=2.25.1
+psycopg2>=2.8.6
+selenium>=3.141.0
+parameterized>=0.8.1
